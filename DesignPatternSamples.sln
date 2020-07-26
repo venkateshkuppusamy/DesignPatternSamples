@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediator.csproj", "{5E550E2A-E883-4E17-B162-C3973EF9FBDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{84A63CF9-DFDE-4497-9244-0E02453B7F66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{84A63CF9-DFDE-4497-9244-0E02453B7F66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{5796FDEE-1642-4B42-9059-FB630B1125A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{84A63CF9-DFDE-4497-9244-0E02453B7F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84A63CF9-DFDE-4497-9244-0E02453B7F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84A63CF9-DFDE-4497-9244-0E02453B7F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5796FDEE-1642-4B42-9059-FB630B1125A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5796FDEE-1642-4B42-9059-FB630B1125A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5796FDEE-1642-4B42-9059-FB630B1125A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5796FDEE-1642-4B42-9059-FB630B1125A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
