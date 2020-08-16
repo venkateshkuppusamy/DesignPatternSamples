@@ -12,9 +12,26 @@ namespace Mediator
     {
         static void Main(string[] args)
         {
-            
-            RiderApp();
+            UseBasic2Mediator();
+
+            //RiderApp();
             //UseBasicMediator();
+        }
+
+        static void UseBasic2Mediator()
+        {
+            //define mediator
+            
+            Basic2.ILocalCollegue localCollegue = new Basic2.ConcreteLocalCollegue();
+            Basic2.IRemoteCollegue remoteCollegue = new Basic2.ConcreteRemoteCollegue();
+
+            Basic2.AbstractMediator abstractMediator = new Basic2.ConcreteMediator(localCollegue,remoteCollegue);
+            Console.WriteLine("Remote collegue and local collegue connection estabilished");
+
+            localCollegue.Operation1();
+            remoteCollegue.Method2();
+
+            Console.Read();
         }
 
         static void UseBasicMediator()
