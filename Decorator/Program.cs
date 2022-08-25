@@ -11,7 +11,8 @@ namespace Decorator
     {
         static void Main(string[] args)
         {
-            Reload_Display_Decorator.Startup.Run();
+            //Reload_Display_Decorator.Startup.Run();
+            CacheDecorator.Startup.Run();
         }
     }
 }
