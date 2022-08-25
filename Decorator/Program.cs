@@ -11,7 +11,7 @@ namespace Decorator
     {
         static void Main(string[] args)
         {
-            Intercept_Decorator.Startup.Run();
+            Reload_Display_Decorator.Startup.Run();
         }
     }
 }

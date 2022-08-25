@@ -1,4 +1,4 @@
-﻿namespace Decorator.Intercept_Decorator
+﻿namespace Decorator.StopWatch_DBLogger_Decorator
 {
     internal interface IApiClient
     {

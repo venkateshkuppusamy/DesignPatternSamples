@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace Decorator.Intercept_Decorator
+namespace Decorator.StopWatch_DBLogger_Decorator
 {
     internal class GoogleClient : IApiClient
     {

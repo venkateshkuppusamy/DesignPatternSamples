@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace Decorator.Intercept_Decorator
+namespace Decorator.StopWatch_DBLogger_Decorator
 {
     internal class StopWatchClientDecorator : IApiClient
     {
